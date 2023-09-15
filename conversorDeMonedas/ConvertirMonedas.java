@@ -70,5 +70,4 @@ public class ConvertirMonedas {
 			resultado = (double)Math.round(resultado * 100d) / 100;
 			JOptionPane.showMessageDialog(null, "Tienes " + resultado + " Soles");
 		}
-		
 }

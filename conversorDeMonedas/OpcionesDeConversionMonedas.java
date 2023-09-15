@@ -3,10 +3,10 @@ package conversorDeMonedas;
 import javax.swing.JOptionPane;
 
 public class OpcionesDeConversionMonedas {
+	
+	ConvertirMonedas convertirMonedas = new ConvertirMonedas();
 
 	public void convertir(double valor) {
-		
-		ConvertirMonedas convertirMonedas = new ConvertirMonedas();
 		
 		String opcion = (JOptionPane.showInputDialog(null, "Elije la moneda que quieras convertir", "Monedas",
 				JOptionPane.PLAIN_MESSAGE, null, new Object[]
