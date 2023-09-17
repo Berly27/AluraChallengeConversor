@@ -15,5 +15,6 @@ Fahrenheit [°F]
 Celcius [°C]
 Kelvin [°K]
 
-Requisitos y dependencias
+**Requisitos y dependencias**
 El código está escrito en Java 17.0.6 y utiliza la librería javax.swing.JOptionPane para crear ventanas emergentes que permiten al usuario ingresar una cantidad y una unidad de origen y destino, y obtener el resultado de la conversión.
+
